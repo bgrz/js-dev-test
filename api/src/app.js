@@ -19,7 +19,11 @@ app.use('/repos', cors(corsOptions), repos => {
     'https://api.github.com/users/silverorange/repos'
   ];
 
-  console.log('ready for /repos');
+  urls.forEach(function(location) {
+    data = Object.assign(data, tools.fetchJSON(location));
+  });
+//  console.log(JSON.stringify(data));
+//  res.send(JSON.stringify(data));
 });
 
 // error handling middleware should be loaded after the loading the routes
