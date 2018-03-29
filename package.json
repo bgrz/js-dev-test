@@ -11,5 +11,21 @@
   },
   "scripts": {
     "lint": "eslint web/src/ api/"
-  }
+  },
+  "description": "silverorange JavaScript Developer Assessment\r ============================================",
+  "main": ".eslintrc.js",
+  "dependencies": {
+    "request": "^2.85.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bgrz/js-dev-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bgrz/js-dev-test/issues"
+  },
+  "homepage": "https://github.com/bgrz/js-dev-test#readme"
 }
